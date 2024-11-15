@@ -1,6 +1,5 @@
-html{
+html {
   font-size: 16px;
-  color: #250000;
 }
 
 body {
@@ -45,8 +44,8 @@ header h1 {
 #menu li {
   font-family: "regular";
   margin-bottom: 10px;
-  font-size: 1rem;
   cursor: pointer;
+  font-size: 1rem;
 }
 
 #menu li:hover {
@@ -55,14 +54,14 @@ header h1 {
 
 #content {
   width: 80%;
-  padding: 5px 20px;
+  padding: 30px 20px;
   background-color: var(--content-color);
 }
 
 #content-title {
   font-family: "bold";
   text-align: center;
-  font-size: 2.5rem;
+  font-size: 2rem;
 }
 
 .movie-card {
@@ -76,25 +75,22 @@ header h1 {
 
 .movie-card img {
   width: 50%;
-  border-radius: 10px;
-  background-color: rgba(25, 00, 00, 0.2);
-  padding: 5px;
 }
 
 .movie-card span {
   width: 50%;
-  font-size: 1.8rem;
-  padding: 0 15px;
+  padding: 0 20px;
   font-family: "regular";
+  font-size: 1rem;
 }
 
 footer {
   background-color: var(--footer-color);
-  padding: 25px 20px;
+  padding: 50px 20px;
 }
 
 footer span {
-  font-size: 0.5rem;
   color: #fff;
   font-family: "bold";
+  font-size: 1rem;
 }
