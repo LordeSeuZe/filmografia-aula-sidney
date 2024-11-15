@@ -1,0 +1,21 @@
+:root {
+  --header-color: #e41f0d;
+  --menu-color: #ac8d8d;
+  --content-color: #feeded;
+  --movie-card-color: #fdd8d1;
+  --footer-color: #250000;
+}
+/*
+vermelho vivido #f82410
+rosado #febfb4
+preto avermelhado #250000
+branco #feeded
+cinza #ac8d8d
+*/
+/*
+sm  640px  -> small
+md  768px  -> medium
+lg  1024px -> large
+xl  1280px -> eXtra large
+2xl 1536px -> double eXtra large
+*/

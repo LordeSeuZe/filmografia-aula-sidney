@@ -1,0 +1,124 @@
+/* Breakpoint para smartphones */
+/* Media query / Media rule */
+@media screen and (max-width: 640px) {
+  html{
+    font-size: 14px
+  }
+  
+  header {
+    padding: 10px 0;
+  }
+
+  header h1 {
+    margin: 10px 0;
+  }
+
+  #main {
+    flex-direction: column;
+  }
+
+  #menu,
+  #content {
+    width: 100%;
+  }
+
+  #menu {
+    padding: 10px 0;
+  }
+
+  #menu span {
+    display: none;
+
+  }
+
+  #menu ul {
+    display: flex;
+    margin: 0;
+    justify-content: center;
+    gap: 30px; /* lacuna entre os itens deste contêiner */
+  }
+
+  #menu li {
+    margin: 0 20px;
+  }
+
+  #content{
+    padding: 15px 10px;
+    box-sizing: border-box;
+  }
+  .movie-card {
+    flex-direction: column;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 25px;
+  }
+
+  .movie-card img,
+  .movie-card span {
+    width: 100%;
+  }
+
+  .movie-card span{
+    padding: 0;
+    text-align: center;
+  }
+
+  footer {
+    padding: 20px 0;
+    text-align: center;
+  }
+}
+
+@media  screen and (max-width: 1024px) {
+  html{
+    font-size: 16px;
+  }
+  #main{
+    flex-direction: column;
+  }
+  
+  #menu,
+  #content {
+    width: 100%;
+    padding: 10px 0;
+  }
+
+  header h1{
+    font-size: 3rem;
+  }
+
+
+  #menu span {
+    display: none;
+  }
+
+  #menu ul{
+    display: flex;
+    margin: 10px 0;
+    justify-content: center;
+    gap: 40px;
+  }
+
+  #menu li {
+    font-size: 2rem;
+  }
+
+  #content-title {
+    font-size: 3rem;
+  }
+
+  .movie-card {
+    width: 80%;
+    padding: 30px 10px;
+    margin: 20px 5px 0 5px;
+  }
+    footer {
+      padding: 0;
+      margin: 0 auto;
+      text-align: center;
+    }
+
+  footer span{
+    font-size: 1rem;
+  }
+}
